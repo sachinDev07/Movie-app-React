@@ -1,10 +1,12 @@
-import React from 'react'
-import './details.scss'
+import React from "react";
+import DetailBanner from "./detailBanner/DetailBanner";
 
 const Details = () => {
   return (
-    <div>Details</div>
-  )
-}
+    <div className="detailPage">
+      <DetailBanner />
+    </div>
+  );
+};
 
-export default Details
+export default Details;
