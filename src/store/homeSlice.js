@@ -5,7 +5,7 @@ export const homeSlice = createSlice({
   name: 'home',
   initialState: {
     url: {},
-    genres: {}
+    genres: {},
   },
   reducers: {
     getApiConfiguration: (state, action) => {
