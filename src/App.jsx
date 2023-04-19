@@ -15,7 +15,6 @@ import SearchResult from "./pages/searchResult/SearchResult";
 
 const App = () => {
   const dispatch = useDispatch();
-  const { url } = useSelector((state) => state.home);
 
   useEffect(() => {
     fetchApiConfig();
