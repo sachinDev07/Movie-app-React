@@ -18,7 +18,7 @@ npm start
 This will start the app on [http://localhost:5173](http://localhost:5173).
 
 
-Live : [http://localhost:5173](http://localhost:5173).
+Live : [Movie App](sachin-movie-app.netlify.app).
 
 Screenshot of the Movie App
 ![Screenshot of the Movie App](src\assets\Capture111.PNG)
