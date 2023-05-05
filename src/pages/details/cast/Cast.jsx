@@ -6,19 +6,11 @@ import "./cast.scss";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import Img from "../../../components/lazyLoadImg/Img";
 import avatar from "../../../assets/avatar.png";
+import CastSkeleton from "../../../components/skeleton/CastSkeleton";
 
 const Cast = ({ data, loading }) => {
   const { url } = useSelector((state) => state.home);
 
-  const skeleton = () => {
-    return (
-      <div className="skItem">
-        <div className="circle skeleton"></div>
-        <div className="row skeleton"></div>
-        <div className="row2 skeleton"></div>
-      </div>
-    );
-  };
   return (
     <div className="castSection">
       <ContentWrapper>
@@ -41,14 +33,7 @@ const Cast = ({ data, loading }) => {
             })}
           </div>
         ) : (
-          <div className="castSkeleton">
-            {skeleton()}
-            {skeleton()}
-            {skeleton()}
-            {skeleton()}
-            {skeleton()}
-            {skeleton()}
-          </div>
+          <CastSkeleton />
         )}
       </ContentWrapper>
     </div>
