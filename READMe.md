@@ -21,9 +21,9 @@ This will start the app on [http://localhost:5173](http://localhost:5173).
 Live : [Movie App](sachin-movie-app.netlify.app).
 
 Screenshot of the Movie App
-![Screenshot of the Movie App](src\assets\Capture111.PNG)
-![Screenshot of the Movie App](src\assets\Capture222.PNG)
-![Screenshot of the Movie App](src\assets\Capture333.PNG)
+![Capture111](https://user-images.githubusercontent.com/110657130/236462704-1cb6de6d-b259-4542-94a0-44354e578545.PNG)
+![Capture222](https://user-images.githubusercontent.com/110657130/236462797-9541061f-2c2c-406f-b710-d383d34044b4.PNG)
+![Capture333](https://user-images.githubusercontent.com/110657130/236462847-3e69789d-9d5a-447b-9325-f72ba20e4f9b.PNG)
 
 ## Features
 
